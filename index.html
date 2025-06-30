@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tribute to Dr. A.P.J. Abdul Kalam</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #f0f4ff, #ffffff);
+      color: #333;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    .hero {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .hero img {
+      width: 220px;
+      height: 220px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 6px solid #0d47a1;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      color: #0d47a1;
+      margin-top: 20px;
+    }
+
+    .hero h3 {
+      font-size: 24px;
+      color: #555;
+      margin-top: 10px;
+    }
+
+    .section {
+      margin-top: 40px;
+    }
+
+    .section h2 {
+      font-size: 32px;
+      color: #0d47a1;
+      margin-bottom: 20px;
+      border-left: 5px solid #0d47a1;
+      padding-left: 15px;
+    }
+
+    .section p {
+      font-size: 18px;
+      text-align: justify;
+      margin-bottom: 20px;
+    }
+
+    .awards ul {
+      margin-left: 20px;
+      font-size: 18px;
+    }
+
+    .awards li {
+      margin: 8px 0;
+    }
+
+    .quote-carousel {
+      background: #e3f2fd;
+      padding: 20px;
+      margin: 50px 0;
+      text-align: center;
+      border-radius: 10px;
+      position: relative;
+    }
+
+    .quote-carousel blockquote {
+      font-size: 24px;
+      font-style: italic;
+      color: #0d47a1;
+      transition: opacity 0.5s ease-in-out;
+    }
+
+    .timeline {
+      margin-top: 40px;
+    }
+
+    .timeline-item {
+      padding: 15px;
+      border-left: 4px solid #2196f3;
+      margin-bottom: 20px;
+      background: #f1f8ff;
+      border-radius: 6px;
+    }
+
+    .timeline-item h4 {
+      color: #0d47a1;
+      margin-bottom: 5px;
+    }
+
+    a {
+      color: #0d47a1;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+      .hero h1 {
+        font-size: 36px;
+      }
+
+      .hero img {
+        width: 160px;
+        height: 160px;
+      }
+
+      .section h2 {
+        font-size: 26px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="hero">
+      <img src="apj.jpg" alt="Dr. A.P.J. Abdul Kalam" />
+      <h1>Dr. A.P.J. Abdul Kalam</h1>
+      <h3>15 October 1931 – 27 July 2015</h3>
+      <p><em>Missile Man of India • People&#39;s President • Visionary</em></p>
+
+    </div>
+
+    <div class="quote-carousel">
+      <blockquote id="quote">“Dream, dream, dream. Dreams transform into thoughts and thoughts result in action.”</blockquote>
+    </div>
+
+    <div class="section">
+      <h2>About Dr. Kalam</h2>
+      <p>
+        Avul Pakir Jainulabdeen Abdul Kalam was an Indian aerospace scientist and the 11th President of India. He
+        played a major role in India’s civilian space and military missile programs and was a key figure in Pokhran-II
+        nuclear tests in 1998.
+      </p>
+      <p>
+        Loved by millions for his humility, wisdom, and dedication to youth, Dr. Kalam remains an inspiration across
+        generations.
+      </p>
+    </div>
+
+    <div class="section awards">
+      <h2>Major Awards</h2>
+      <ul>
+        <li>Padma Bhushan – 1981</li>
+        <li>Padma Vibhushan – 1990</li>
+        <li>Bharat Ratna – 1997</li>
+        <li>Indira Gandhi Award for National Integration – 1997</li>
+        <li>Ramanujan Award – 2000</li>
+        <li>Hoover Medal – 2008</li>
+        <li>Von Braun Award – 2013</li>
+      </ul>
+    </div>
+
+    <div class="section timeline">
+      <h2>Timeline Highlights</h2>
+      <div class="timeline-item">
+        <h4>1931</h4>
+        <p>Born in Rameswaram, Tamil Nadu.</p>
+      </div>
+      <div class="timeline-item">
+        <h4>1980</h4>
+        <p>Lead role in SLV-III launch that deployed Rohini satellite into orbit.</p>
+      </div>
+      <div class="timeline-item">
+        <h4>1998</h4>
+        <p>Played key role in India's Pokhran-II nuclear test.</p>
+      </div>
+      <div class="timeline-item">
+        <h4>2002 - 2007</h4>
+        <p>Served as the 11th President of India.</p>
+      </div>
+      <div class="timeline-item">
+        <h4>2015</h4>
+        <p>Passed away doing what he loved — delivering a lecture to students.</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Read More</h2>
+      <p>
+        For detailed biography and achievements, visit his
+        <a href="https://en.wikipedia.org/wiki/A._P._J._Abdul_Kalam" target="_blank" rel="noopener">Wikipedia page</a>.
+      </p>
+    </div>
+  </div>
+
+  <script>
+    // Simple quote carousel
+    const quotes = [
+      "“Dream, dream, dream. Dreams transform into thoughts and thoughts result in action.”",
+      "“You have to dream before your dreams can come true.”",
+      "“If you want to shine like a sun, first burn like a sun.”",
+      "“Excellence is a continuous process and not an accident.”",
+      "“Let us sacrifice our today so that our children can have a better tomorrow.”"
+    ];
+
+    let index = 0;
+    const quoteElement = document.getElementById("quote");
+
+    setInterval(() => {
+      index = (index + 1) % quotes.length;
+      quoteElement.style.opacity = 0;
+      setTimeout(() => {
+        quoteElement.textContent = quotes[index];
+        quoteElement.style.opacity = 1;
+      }, 500);
+    }, 4000);
+  </script>
+</body>
+
+</html> 

@@ -10,8 +10,8 @@ This project celebrates his life, achievements, and inspirational thoughts throu
 
 ## 🌐 Live Demo
 
-🔗 Open `index.html` in any modern web browser to view the tribute page.
-* 🚀 This webpage is hosted using GitHub Pages and can be accessed here:
+🔗 Open `index.html` in any modern web browser to view the tribute page.  
+🚀 This webpage is hosted using GitHub Pages and can be accessed here:
 
 👉 Live Website: https://ajayramm7.github.io/TributePage/
 
